@@ -1,15 +1,12 @@
-import { Text, View } from "react-native";
+import Pagina from "@/components/templates/pagina";
+import { Text } from "react-native"
 
 export default function Index() {
   return (
-    <View
-      style={{
-        flex: 1,
-        justifyContent: "center",
-        alignItems: "center",
-      }}
-    >
-      <Text>Edit app/index.tsx to edit this screen.</Text>
-    </View>
+      <Pagina>
+        <Text style={{fontFamily: 'Space-Mission'}}>
+          New app React-native
+        </Text>
+      </Pagina>
   );
 }
